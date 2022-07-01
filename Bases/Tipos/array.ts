@@ -6,6 +6,7 @@
     const villian = ['omega rojo', 'dormammu', 'linternaverde']
  
         villian.forEach(e => console.log(e.toUpperCase()))
+      
 
 })()
 
