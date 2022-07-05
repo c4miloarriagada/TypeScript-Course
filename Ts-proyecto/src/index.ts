@@ -1,5 +1,12 @@
-import { getPokemon } from './generics/get-pokemon';
+import { Pokemon } from "./decorators/pokemon";
 
 
 
-getPokemon(4).then(pokemon => console.log(pokemon.sprites.front_default)).catch(error => console.log(error))
+const charmander = new Pokemon('Charmander');
+
+//(Pokemon.prototype as any).customName = 'Pikachu'
+
+
+charmander.publicApi = 'otro valor'
+console.log(charmander)
+
