@@ -10,5 +10,5 @@ var Validations;
             : true;
     };
 })(Validations || (Validations = {}));
-console.log(Validations.);
+console.log(Validations);
 //# sourceMappingURL=main.js.map

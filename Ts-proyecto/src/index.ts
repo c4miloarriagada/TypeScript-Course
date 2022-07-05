@@ -1,13 +1,5 @@
-// import *  as HeroClasses from './classes/Hero';
-// import powers from './data/powers';
-import {Hero} from './classes/Hero'
-
-
-// const Hero = 123
-
-const ironman = new Hero('Ironman', 1,  50)
+import { getPokemon } from './generics/get-pokemon';
 
 
 
-
-console.log(ironman.power)
+getPokemon(4).then(pokemon => console.log(pokemon.sprites.front_default)).catch(error => console.log(error))

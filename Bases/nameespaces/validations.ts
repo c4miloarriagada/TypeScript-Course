@@ -16,4 +16,4 @@ namespace Validations {
 
 }
 
-console.log(Validations.)
+console.log(Validations)
